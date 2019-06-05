@@ -1,0 +1,29 @@
+{
+  "name": "@switers/copy-scaffold-template",
+  "version": "1.0.0",
+  "description": "简单的copy脚手架代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/switers-wang/copy-scaffold-template.git"
+  },
+  "bin": {
+    "cst": "bin/index.js"
+  },
+  "author": "switers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/switers-wang/copy-scaffold-template/issues"
+  },
+  "homepage": "https://github.com/switers-wang/copy-scaffold-template#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^2.20.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.3.1",
+    "path": "^0.12.7"
+  }
+}
